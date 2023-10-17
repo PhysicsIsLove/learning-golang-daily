@@ -1,26 +1,38 @@
-package main
+// package main
 
-import "fmt"
+// import (
+// 	"fmt"
+// 	"log"
+// )
 
-func main() {
+// func main() {
 
-	var day string = "today"
-	fmt.Println("Hello world")
-	fmt.Println("the day is ", day)
+// 	var day string = "today"
+// 	fmt.Println("Hello world")
+// 	fmt.Println("the day is ", day)
 
-	nextDay := getNextDay();
+// 	nextDay := getNextDay();
 
-	fmt.Println("the next day is ", nextDay);
+// 	fmt.Println("the next day is ", nextDay);
 
-	nextDay, nextToNextDay := getNextTwoDays()
+// 	nextDay, nextToNextDay := getNextTwoDays()
 
-	fmt.Println("the next two days are", nextDay, "and",  nextToNextDay);
-}
+// 	fmt.Println("the next two days are", nextDay, "and",  nextToNextDay);
 
-func getNextDay() string {
-	return "tomorrow"
-}
+// 	log.Println("the referense of the day is ", &day)
+// 	changeUsingPointer(&day)
+// 	log.Println("After changing the variable using pointer and reference  ", day)
+// }
 
-func getNextTwoDays() (string, string) {
-	return "tomorrow", "day after tomorrow"
-}
+// func getNextDay() string {
+// 	return "tomorrow"
+// }
+
+// func getNextTwoDays() (string, string) {
+// 	return "tomorrow", "day after tomorrow"
+// }
+
+// func changeUsingPointer(s *string){
+// 	var newStr string = "yesterday"
+// 	*s = newStr;
+// }

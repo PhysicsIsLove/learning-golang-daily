@@ -15,3 +15,8 @@ func getNextTwoDays() (string, string) {
 
 To assign th return of any function to another variable we can use the `:=` sign.
 Note that because of this we don't need to set the type of the variable, it gets auto assigned to the type returned by the function.
+
+
+we can get the address (reference to any variable) of any variable using the & operator before it
+When you want it to refer to any actual variable, then you put an asterisk infront of it
+
